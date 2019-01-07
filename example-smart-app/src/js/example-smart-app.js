@@ -42,6 +42,7 @@
           var diastolicbp = getBloodPressureValue(byCodes('55284-4'),'8462-4');
           var hdl = byCodes('2085-9');
           var ldl = byCodes('2089-1');
+          var stage = byCodes('75620-5');
 
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
